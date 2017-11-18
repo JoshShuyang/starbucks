@@ -18,7 +18,7 @@ import org.junit.Test;
 public class KeyPadPressTest
 {
     KeyPad kp ;
-    
+
     /**
      * Default constructor for test class KeyPadPressTest
      */
@@ -47,7 +47,7 @@ public class KeyPadPressTest
         assertTrue(kp.lastKey.equals("1"));
     }
 
-   @Test
+    @Test
     public void testTwo()
     {
         // Press 2
@@ -57,7 +57,7 @@ public class KeyPadPressTest
         assertTrue(kp.lastKey.equals("2"));
     }
 
-   @Test
+    @Test
     public void testThree()
     {
         // Press 3
@@ -67,7 +67,7 @@ public class KeyPadPressTest
         assertTrue(kp.lastKey.equals("3"));
     }
 
-   @Test
+    @Test
     public void testFour()
     {
         // Press 4
@@ -77,7 +77,7 @@ public class KeyPadPressTest
         assertTrue(kp.lastKey.equals("4"));
     }
 
-   @Test
+    @Test
     public void testFive()
     {
         // Press 5
@@ -87,7 +87,7 @@ public class KeyPadPressTest
         assertTrue(kp.lastKey.equals("5"));
     }
 
-   @Test
+    @Test
     public void testSix()
     {
         // Press 6
@@ -97,7 +97,7 @@ public class KeyPadPressTest
         assertTrue(kp.lastKey.equals("6"));
     }
 
-   @Test
+    @Test
     public void testSeven()
     {
         // Press 7
@@ -107,7 +107,7 @@ public class KeyPadPressTest
         assertTrue(kp.lastKey.equals("7"));
     }
 
-   @Test
+    @Test
     public void testEight()
     {
         // Press 8
@@ -117,7 +117,7 @@ public class KeyPadPressTest
         assertTrue(kp.lastKey.equals("8"));
     }
 
-   @Test
+    @Test
     public void testNine()
     {
         // Press 9
@@ -127,7 +127,7 @@ public class KeyPadPressTest
         assertTrue(kp.lastKey.equals("9"));
     }
 
-   @Test
+    @Test
     public void testZero()
     {
         // Press 0
@@ -137,7 +137,7 @@ public class KeyPadPressTest
         assertTrue(kp.lastKey.equals("0"));
     }
 
-   @Test
+    @Test
     public void testBackspace()
     {
         // Press Backspace
@@ -147,7 +147,7 @@ public class KeyPadPressTest
         assertTrue(kp.lastKey.equals("X"));
     }
 
-   @Test
+    @Test
     public void testNoKey()
     {
         // Press Empty Key
@@ -158,7 +158,7 @@ public class KeyPadPressTest
     }
 
 
-    
+
     /**
      * Tears down the test fixture.
      *
